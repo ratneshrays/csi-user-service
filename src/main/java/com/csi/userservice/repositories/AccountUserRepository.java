@@ -7,4 +7,5 @@ public interface AccountUserRepository extends JpaRepository<AccountUser,String>
     
     //if you want to implement any custom method or query
     //write
+    AccountUser findByUsername(String username);
 }
